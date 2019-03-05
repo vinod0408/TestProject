@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun May 20 09:04:51 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>133 seconds (133939 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.agiliz.chatbot.testcases.ActiveCardTest.actCreditCardMsg()'><b>actCreditCardMsg</b><br>Test class: com.agiliz.chatbot.testcases.ActiveCardTest<br/>
+<a href="#Output-1884231057" onClick='toggleBox("Output-1884231057", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1884231057" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1884231057">
+[ 2018/05/20 09:04:54 ]Populated the input box with the given message :	credit card<br/>
+[ 2018/05/20 09:04:55 ]Clicked on the Expected Element:	<br/>
+[ 2018/05/20 09:05:16 ]Verified, Acutal Text is matching with Expected text :	Please enter the last 4 digits of your SSN or Account Security Code<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66</td></tr>
+<tr>
+<td title='com.agiliz.chatbot.testcases.ActiveCardTest.actCreditMailMsg()'><b>actCreditMailMsg</b><br>Test class: com.agiliz.chatbot.testcases.ActiveCardTest<br/>
+<a href="#Output-1563053805" onClick='toggleBox("Output-1563053805", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1563053805" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1563053805">
+[ 2018/05/20 09:06:42 ]Populated the input box with the given message :	mail<br/>
+[ 2018/05/20 09:06:43 ]Clicked on the Expected Element:	<br/>
+[ 2018/05/20 09:07:04 ]Verified, Acutal Text is matching with Expected text :	Is there anything else I can help you with today?<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66</td></tr>
+<tr>
+<td title='com.agiliz.chatbot.testcases.ActiveCardTest.actCreditSuc1Msg()'><b>actCreditSuc1Msg</b><br>Test class: com.agiliz.chatbot.testcases.ActiveCardTest<br/>
+<a href="#Output-452364286" onClick='toggleBox("Output-452364286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-452364286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-452364286">
+[ 2018/05/20 09:05:16 ]Populated the input box with the given message :	success<br/>
+[ 2018/05/20 09:05:16 ]Clicked on the Expected Element:	<br/>
+[ 2018/05/20 09:05:37 ]Verified, Acutal Text is matching with Expected text :	Please input your new card number<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66</td></tr>
+<tr>
+<td title='com.agiliz.chatbot.testcases.ActiveCardTest.actCreditSuc2Msg()'><b>actCreditSuc2Msg</b><br>Test class: com.agiliz.chatbot.testcases.ActiveCardTest<br/>
+<a href="#Output-2075568954" onClick='toggleBox("Output-2075568954", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2075568954" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2075568954">
+[ 2018/05/20 09:05:38 ]Populated the input box with the given message :	success<br/>
+[ 2018/05/20 09:05:38 ]Clicked on the Expected Element:	<br/>
+[ 2018/05/20 09:05:59 ]Verified, Acutal Text is matching with Expected text :	Please input the security code associated with the card<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66</td></tr>
+<tr>
+<td title='com.agiliz.chatbot.testcases.ActiveCardTest.actCreditSuc3Msg()'><b>actCreditSuc3Msg</b><br>Test class: com.agiliz.chatbot.testcases.ActiveCardTest<br/>
+<a href="#Output-451312813" onClick='toggleBox("Output-451312813", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-451312813" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-451312813">
+[ 2018/05/20 09:05:59 ]Populated the input box with the given message :	success<br/>
+[ 2018/05/20 09:06:00 ]Clicked on the Expected Element:	<br/>
+[ 2018/05/20 09:06:21 ]Verified, Acutal Text is matching with Expected text :	Your card has been activated. Would you like to be sent a confirmation?<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66</td></tr>
+<tr>
+<td title='com.agiliz.chatbot.testcases.ActiveCardTest.actCreditYsMsg()'><b>actCreditYsMsg</b><br>Test class: com.agiliz.chatbot.testcases.ActiveCardTest<br/>
+<a href="#Output-172794870" onClick='toggleBox("Output-172794870", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-172794870" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-172794870">
+[ 2018/05/20 09:06:21 ]Populated the input box with the given message :	yes<br/>
+[ 2018/05/20 09:06:21 ]Clicked on the Expected Element:	<br/>
+[ 2018/05/20 09:06:42 ]Verified, Acutal Text is matching with Expected text :	Send Confirmation<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66</td></tr>
+<tr>
+<td title='com.agiliz.chatbot.testcases.ActiveCardTest.clickActiveCard()'><b>clickActiveCard</b><br>Test class: com.agiliz.chatbot.testcases.ActiveCardTest<br/>
+<a href="#Output-1865219266" onClick='toggleBox("Output-1865219266", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1865219266" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1865219266">
+[ 2018/05/20 09:04:51 ]Clicked on the Expected Element:	<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66</td></tr>
+<tr>
+<td title='com.agiliz.chatbot.testcases.ActiveCardTest.verifyActiveCardTitle()'><b>verifyActiveCardTitle</b><br>Test class: com.agiliz.chatbot.testcases.ActiveCardTest</td>
+<td></td>
+<td>0</td>
+<td>com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66</td></tr>
+</table><p>
+</body>
+</html>

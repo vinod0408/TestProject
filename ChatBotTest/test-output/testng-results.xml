@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[[ 2018/05/20 09:04:51 ]Clicked on the Expected Element:	]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:04:54 ]Populated the input box with the given message :	credit card]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:04:55 ]Clicked on the Expected Element:	]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:05:16 ]Verified, Acutal Text is matching with Expected text :	Please enter the last 4 digits of your SSN or Account Security Code]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:05:16 ]Populated the input box with the given message :	success]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:05:16 ]Clicked on the Expected Element:	]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:05:37 ]Verified, Acutal Text is matching with Expected text :	Please input your new card number]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:05:38 ]Populated the input box with the given message :	success]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:05:38 ]Clicked on the Expected Element:	]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:05:59 ]Verified, Acutal Text is matching with Expected text :	Please input the security code associated with the card]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:05:59 ]Populated the input box with the given message :	success]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:06:00 ]Clicked on the Expected Element:	]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:06:21 ]Verified, Acutal Text is matching with Expected text :	Your card has been activated. Would you like to be sent a confirmation?]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:06:21 ]Populated the input box with the given message :	yes]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:06:21 ]Clicked on the Expected Element:	]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:06:42 ]Verified, Acutal Text is matching with Expected text :	Send Confirmation]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:06:42 ]Populated the input box with the given message :	mail]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:06:43 ]Clicked on the Expected Element:	]]>
+    </line>
+    <line>
+      <![CDATA[[ 2018/05/20 09:07:04 ]Verified, Acutal Text is matching with Expected text :	Is there anything else I can help you with today?]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="133939" started-at="2018-05-20T03:34:51Z" finished-at="2018-05-20T03:37:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="133939" started-at="2018-05-20T03:34:51Z" finished-at="2018-05-20T03:37:05Z">
+      <class name="com.agiliz.chatbot.testcases.ActiveCardTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="initialization" is-config="true" duration-ms="19790" started-at="2018-05-20T09:04:29Z" finished-at="2018-05-20T09:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="preRequisite()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="preRequisite" is-config="true" duration-ms="1759" started-at="2018-05-20T09:04:49Z" finished-at="2018-05-20T09:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method status="PASS" signature="classPreRequisite()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="classPreRequisite" is-config="true" duration-ms="20" started-at="2018-05-20T09:04:51Z" finished-at="2018-05-20T09:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classPreRequisite -->
+        <test-method status="PASS" signature="clickActiveCard()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="clickActiveCard" duration-ms="3546" started-at="2018-05-20T09:04:51Z" finished-at="2018-05-20T09:04:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[ 2018/05/20 09:04:51 ]Clicked on the Expected Element:	]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickActiveCard -->
+        <test-method status="PASS" signature="verifyActiveCardTitle()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="verifyActiveCardTitle" duration-ms="44" started-at="2018-05-20T09:04:54Z" finished-at="2018-05-20T09:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActiveCardTitle -->
+        <test-method status="PASS" signature="actCreditCardMsg()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="actCreditCardMsg" duration-ms="21677" started-at="2018-05-20T09:04:54Z" finished-at="2018-05-20T09:05:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[ 2018/05/20 09:04:54 ]Populated the input box with the given message :	credit card]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:04:55 ]Clicked on the Expected Element:	]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:05:16 ]Verified, Acutal Text is matching with Expected text :	Please enter the last 4 digits of your SSN or Account Security Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- actCreditCardMsg -->
+        <test-method status="PASS" signature="actCreditSuc1Msg()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="actCreditSuc1Msg" duration-ms="21615" started-at="2018-05-20T09:05:16Z" finished-at="2018-05-20T09:05:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[ 2018/05/20 09:05:16 ]Populated the input box with the given message :	success]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:05:16 ]Clicked on the Expected Element:	]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:05:37 ]Verified, Acutal Text is matching with Expected text :	Please input your new card number]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- actCreditSuc1Msg -->
+        <test-method status="PASS" signature="actCreditSuc2Msg()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="actCreditSuc2Msg" duration-ms="21565" started-at="2018-05-20T09:05:37Z" finished-at="2018-05-20T09:05:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[ 2018/05/20 09:05:38 ]Populated the input box with the given message :	success]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:05:38 ]Clicked on the Expected Element:	]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:05:59 ]Verified, Acutal Text is matching with Expected text :	Please input the security code associated with the card]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- actCreditSuc2Msg -->
+        <test-method status="PASS" signature="actCreditSuc3Msg()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="actCreditSuc3Msg" duration-ms="21760" started-at="2018-05-20T09:05:59Z" finished-at="2018-05-20T09:06:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[ 2018/05/20 09:05:59 ]Populated the input box with the given message :	success]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:06:00 ]Clicked on the Expected Element:	]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:06:21 ]Verified, Acutal Text is matching with Expected text :	Your card has been activated. Would you like to be sent a confirmation?]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- actCreditSuc3Msg -->
+        <test-method status="PASS" signature="actCreditYsMsg()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="actCreditYsMsg" duration-ms="21525" started-at="2018-05-20T09:06:21Z" finished-at="2018-05-20T09:06:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[ 2018/05/20 09:06:21 ]Populated the input box with the given message :	yes]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:06:21 ]Clicked on the Expected Element:	]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:06:42 ]Verified, Acutal Text is matching with Expected text :	Send Confirmation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- actCreditYsMsg -->
+        <test-method status="PASS" signature="actCreditMailMsg()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="actCreditMailMsg" duration-ms="21511" started-at="2018-05-20T09:06:42Z" finished-at="2018-05-20T09:07:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[ 2018/05/20 09:06:42 ]Populated the input box with the given message :	mail]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:06:43 ]Clicked on the Expected Element:	]]>
+            </line>
+            <line>
+              <![CDATA[[ 2018/05/20 09:07:04 ]Verified, Acutal Text is matching with Expected text :	Is there anything else I can help you with today?]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- actCreditMailMsg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.agiliz.chatbot.testcases.ActiveCardTest@2344fc66]" name="tearDown" is-config="true" duration-ms="649" started-at="2018-05-20T09:07:04Z" finished-at="2018-05-20T09:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.agiliz.chatbot.testcases.ActiveCardTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

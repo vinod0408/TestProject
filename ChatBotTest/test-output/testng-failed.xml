@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ChatBot Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.agiliz.chatbot.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="ChatBot Test Cases(failed)">
+    <classes>
+      <class name="com.agiliz.chatbot.testcases.ActiveCardTest">
+        <methods>
+          <include name="clickActiveCard"/>
+          <include name="actCreditSuc3Msg"/>
+          <include name="verifyActiveCardTitle"/>
+          <include name="actCreditSuc2Msg"/>
+          <include name="actCreditSuc1Msg"/>
+          <include name="initialization"/>
+          <include name="actCreditMailMsg"/>
+          <include name="actCreditYsMsg"/>
+          <include name="actCreditCardMsg"/>
+        </methods>
+      </class> <!-- com.agiliz.chatbot.testcases.ActiveCardTest -->
+    </classes>
+  </test> <!-- ChatBot Test Cases(failed) -->
+</suite> <!-- Failed suite [ChatBot Test Automation Test Suite] -->
